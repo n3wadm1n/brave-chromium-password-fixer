@@ -14,11 +14,15 @@ It specifically focuses on modifying the execution commands found in .desktop fi
 - Confirmation: After making modifications, the script outputs confirmation messages, ensuring users are aware of the changes made.
 
 # How To Use
-chmod +x brave-chromium-workaround-passwords.sh<br>
-sudo ./brave-chromium-workaround-passwords.sh<br>
-Choose 1 or 2:<br>
-1 - will add<br>
-2 - will remove
+chmod +x brave-chromium-password-fixer.sh<br>
+sudo ./brave-chromium-password-fixer.sh<br>
+Choose 1 - 6:<br>
+1 - will add (Brave)<br>
+2 - will remove (Brave)<br>
+3 - will add (Chromium)<br>
+4 - will remove (Chromium)<br>
+5 - will add (All)<br>
+6 - will remove (All)<br>
 
 This tool is ideal for users who need to customize the Brave/Chromium Browser’s launch parameters on Linux systems, providing an easy way to enable the SkipUndecryptablePasswords specific feature flag across multiple application shortcuts.
 
